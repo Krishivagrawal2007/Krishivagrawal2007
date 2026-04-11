@@ -32,6 +32,5 @@
 ### 📊 GitHub Stats & Languages
 
 <div align="center">
-  <img src="profile/stats.svg" alt="Krishiv's GitHub Stats" />
   <img src="profile/langs.svg" alt="Krishiv's Top Languages" />
 </div>
