@@ -31,6 +31,8 @@
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Krishivagrawal2007&theme=radical&show_icons=true&hide_border=true" alt="Krishiv's GitHub Stats" />
-</p>
+<div align="center">
+  <a href="https://github.com/Krishivagrawal2007">
+    <img src="profile/stats.svg" alt="Krishiv's GitHub Stats" />
+  </a>
+</div>
