@@ -20,7 +20,7 @@
 ### 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,html,css,cpp,arduino,opencv,aws,discord" alt="Skills" />
+  <img src="https://skillicons.dev/icons?i=python,java,js,html,css,cpp,arduino,opencv,aws,discord,vscode,git" alt="Skills" />
 </div>
 
 ### 🚀 Featured Projects
