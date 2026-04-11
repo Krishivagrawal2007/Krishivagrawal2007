@@ -29,10 +29,9 @@
 * **Autonomous Robot Engineer:** Built an OpenCV vision pipeline combining HSV filtering and contour detection to achieve 45+ FPS real-time computer vision on a Raspberry Pi 5.
 * **polluView:** Built an interactive JavaFX map renderer supporting pan, zoom, hover, and click interactions for visualising UK-wide pollution heatmaps.
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats & Languages
 
 <div align="center">
-  <a href="https://github.com/Krishivagrawal2007">
-    <img src="profile/stats.svg" alt="Krishiv's GitHub Stats" />
-  </a>
+  <img src="profile/stats.svg" alt="Krishiv's GitHub Stats" />
+  <img src="profile/langs.svg" alt="Krishiv's Top Languages" />
 </div>
