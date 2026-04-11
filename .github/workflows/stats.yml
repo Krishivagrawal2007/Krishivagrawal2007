@@ -12,14 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate optimized stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=Krishivagrawal2007&theme=radical&show_icons=true&hide_border=true&hide=stars,prs,issues&hide_rank=true&include_all_commits=true
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -33,5 +25,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update GitHub Stats and Langs" || exit 0
+          git commit -m "Update GitHub Stats" || exit 0
           git push
