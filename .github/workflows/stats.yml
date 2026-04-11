@@ -2,18 +2,24 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight
-  workflow_dispatch: # Allows you to run it manually
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   update-readme:
     name: Generate Stats Card
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: |
-          mkdir -p profile
-          curl -o profile/stats.svg "https://github-readme-stats.vercel.app/api?username=Krishivagrawal2007&theme=radical&show_icons=true&hide_border=true"
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=Krishivagrawal2007&theme=radical&show_icons=true&hide_border=true
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
