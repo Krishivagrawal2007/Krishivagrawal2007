@@ -1,0 +1,23 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every day at midnight
+  workflow_dispatch: # Allows you to run it manually
+
+jobs:
+  update-readme:
+    name: Generate Stats Card
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          mkdir -p profile
+          curl -o profile/stats.svg "https://github-readme-stats.vercel.app/api?username=Krishivagrawal2007&theme=radical&show_icons=true&hide_border=true"
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg
+          git commit -m "Update GitHub Stats" || exit 0
+          git push
