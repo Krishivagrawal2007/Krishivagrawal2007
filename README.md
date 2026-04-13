@@ -15,7 +15,7 @@
 * 🎓 I am a 1st Year Computer Science student at King’s College London, passionate about AI, Robotics, Game Development, and Mathematics.
 * 💼 I have experience in AI development, including a 2-month internship building a fashion chatbot using the Gemini API to analyse clothing attributes and generate model previews.
 * 🚀 I’ve developed a Python game with OOP and Pygame, built a functional RC plane using Arduino and transceivers, and gained web development experience through a Kainos work placement.
-* 🎯 I aim to build a career at the in AI, robotics, and immersive technology, creating intelligent and interactive systems.
+* 🎯 I aim to build a career in AI, robotics, and immersive technology, creating intelligent and interactive systems.
 
 ### 🛠️ Tech Stack
 
